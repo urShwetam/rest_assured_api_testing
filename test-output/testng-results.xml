@@ -1,20 +1,48 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="6" total="7" passed="1" failed="0" skipped="0">
+<testng-results ignored="0" total="7" passed="7" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2022-05-25T10:44:53Z" name="Default suite" finished-at="2022-05-25T10:44:56Z" duration-ms="2585">
+  <suite started-at="2022-05-26T09:15:09Z" name="Default suite" finished-at="2022-05-26T09:15:15Z" duration-ms="6810">
     <groups>
     </groups>
-    <test started-at="2022-05-25T10:44:53Z" name="Default test" finished-at="2022-05-25T10:44:56Z" duration-ms="2585">
+    <test started-at="2022-05-26T09:15:09Z" name="Default test" finished-at="2022-05-26T09:15:15Z" duration-ms="6810">
       <class name="Apitesting.sampleproject.TestCases">
-        <test-method is-config="true" signature="setSpecification()[pri:0, instance:Apitesting.sampleproject.TestCases@44c73c26]" started-at="2022-05-25T10:44:53Z" name="setSpecification" finished-at="2022-05-25T10:44:54Z" duration-ms="669" status="PASS">
+        <test-method is-config="true" signature="setSpecification()[pri:0, instance:Apitesting.sampleproject.TestCases@225129c]" started-at="2022-05-26T09:15:09Z" name="setSpecification" finished-at="2022-05-26T09:15:09Z" duration-ms="893" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setSpecification -->
-        <test-method signature="testLoginUserUnsuccessfull()[pri:0, instance:Apitesting.sampleproject.TestCases@44c73c26]" started-at="2022-05-25T10:44:54Z" name="testLoginUserUnsuccessfull" finished-at="2022-05-25T10:44:56Z" duration-ms="1886" status="PASS">
+        <test-method signature="testCreateUser()[pri:0, instance:Apitesting.sampleproject.TestCases@225129c]" started-at="2022-05-26T09:15:10Z" name="testCreateUser" finished-at="2022-05-26T09:15:12Z" duration-ms="2261" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testCreateUser -->
+        <test-method signature="testFetchUser()[pri:0, instance:Apitesting.sampleproject.TestCases@225129c]" started-at="2022-05-26T09:15:12Z" name="testFetchUser" finished-at="2022-05-26T09:15:12Z" duration-ms="598" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testFetchUser -->
+        <test-method signature="testGetListResourceUser()[pri:0, instance:Apitesting.sampleproject.TestCases@225129c]" started-at="2022-05-26T09:15:12Z" name="testGetListResourceUser" finished-at="2022-05-26T09:15:13Z" duration-ms="610" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testGetListResourceUser -->
+        <test-method signature="testGetListSingleUser()[pri:0, instance:Apitesting.sampleproject.TestCases@225129c]" started-at="2022-05-26T09:15:13Z" name="testGetListSingleUser" finished-at="2022-05-26T09:15:14Z" duration-ms="555" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testGetListSingleUser -->
+        <test-method signature="testLoginUser()[pri:0, instance:Apitesting.sampleproject.TestCases@225129c]" started-at="2022-05-26T09:15:14Z" name="testLoginUser" finished-at="2022-05-26T09:15:14Z" duration-ms="546" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testLoginUser -->
+        <test-method signature="testLoginUserUnsuccessfull()[pri:0, instance:Apitesting.sampleproject.TestCases@225129c]" started-at="2022-05-26T09:15:14Z" name="testLoginUserUnsuccessfull" finished-at="2022-05-26T09:15:15Z" duration-ms="556" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testLoginUserUnsuccessfull -->
+        <test-method signature="testRegisterUser()[pri:0, instance:Apitesting.sampleproject.TestCases@225129c]" started-at="2022-05-26T09:15:15Z" name="testRegisterUser" finished-at="2022-05-26T09:15:15Z" duration-ms="548" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testRegisterUser -->
+        <test-method is-config="true" signature="closeReport()[pri:0, instance:Apitesting.sampleproject.TestCases@225129c]" started-at="2022-05-26T09:15:15Z" name="closeReport" finished-at="2022-05-26T09:15:15Z" duration-ms="208" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeReport -->
       </class> <!-- Apitesting.sampleproject.TestCases -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
