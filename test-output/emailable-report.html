@@ -8,17 +8,44 @@
 <body>
 <table>
 <tr><th>Test</th><th># Passed</th><th># Skipped</th><th># Failed</th><th>Time (ms)</th><th>Included Groups</th><th>Excluded Groups</th></tr>
-<tr><th colspan="7">Default suite</th></tr>
-<tr><td><a href="#t0">Default test</a></td><td class="num">7</td><td class="num">0</td><td class="num">0</td><td class="num">6,810</td><td></td><td></td></tr>
+<tr><th colspan="7">Test Suite</th></tr>
+<tr><td><a href="#t0">Demo Api Tests</a></td><td class="num">6</td><td class="num">0</td><td class="num attn">1</td><td class="num">7,492</td><td></td><td></td></tr>
 </table>
-<table id='summary'><thead><tr><th>Class</th><th>Method</th><th>Start</th><th>Time (ms)</th></tr></thead><tbody><tr><th colspan="4">Default suite</th></tr></tbody><tbody id="t0"><tr><th colspan="4">Default test &#8212; passed</th></tr><tr class="passedeven"><td rowspan="7">Apitesting.sampleproject.TestCases</td><td><a href="#m0">testCreateUser</a></td><td rowspan="1">1653556510002</td><td rowspan="1">2261</td></tr><tr class="passedeven"><td><a href="#m1">testFetchUser</a></td><td rowspan="1">1653556512266</td><td rowspan="1">598</td></tr><tr class="passedeven"><td><a href="#m2">testGetListResourceUser</a></td><td rowspan="1">1653556512866</td><td rowspan="1">610</td></tr><tr class="passedeven"><td><a href="#m3">testGetListSingleUser</a></td><td rowspan="1">1653556513478</td><td rowspan="1">555</td></tr><tr class="passedeven"><td><a href="#m4">testLoginUser</a></td><td rowspan="1">1653556514034</td><td rowspan="1">546</td></tr><tr class="passedeven"><td><a href="#m5">testLoginUserUnsuccessfull</a></td><td rowspan="1">1653556514582</td><td rowspan="1">556</td></tr><tr class="passedeven"><td><a href="#m6">testRegisterUser</a></td><td rowspan="1">1653556515139</td><td rowspan="1">548</td></tr></tbody>
+<table id='summary'><thead><tr><th>Class</th><th>Method</th><th>Start</th><th>Time (ms)</th></tr></thead><tbody><tr><th colspan="4">Test Suite</th></tr></tbody><tbody id="t0"><tr><th colspan="4">Demo Api Tests &#8212; failed</th></tr><tr class="failedeven"><td rowspan="1">Apitesting.sampleproject.TestCases</td><td><a href="#m0">testLoginUserUnsuccessfull</a></td><td rowspan="1">1653642688609</td><td rowspan="1">615</td></tr><tr><th colspan="4">Demo Api Tests &#8212; passed</th></tr><tr class="passedeven"><td rowspan="6">Apitesting.sampleproject.TestCases</td><td><a href="#m1">testCreateUser</a></td><td rowspan="1">1653642683686</td><td rowspan="1">2481</td></tr><tr class="passedeven"><td><a href="#m2">testFetchUser</a></td><td rowspan="1">1653642686169</td><td rowspan="1">592</td></tr><tr class="passedeven"><td><a href="#m3">testGetListResourceUser</a></td><td rowspan="1">1653642686764</td><td rowspan="1">655</td></tr><tr class="passedeven"><td><a href="#m4">testGetListSingleUser</a></td><td rowspan="1">1653642687421</td><td rowspan="1">591</td></tr><tr class="passedeven"><td><a href="#m5">testLoginUser</a></td><td rowspan="1">1653642688014</td><td rowspan="1">593</td></tr><tr class="passedeven"><td><a href="#m6">testRegisterUser</a></td><td rowspan="1">1653642689228</td><td rowspan="1">594</td></tr></tbody>
 </table>
-<h2>Default test</h2><h3 id="m0">Apitesting.sampleproject.TestCases#testCreateUser</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
-<h3 id="m1">Apitesting.sampleproject.TestCases#testFetchUser</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
-<h3 id="m2">Apitesting.sampleproject.TestCases#testGetListResourceUser</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
-<h3 id="m3">Apitesting.sampleproject.TestCases#testGetListSingleUser</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
-<h3 id="m4">Apitesting.sampleproject.TestCases#testLoginUser</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
-<h3 id="m5">Apitesting.sampleproject.TestCases#testLoginUserUnsuccessfull</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h2>Demo Api Tests</h2><h3 id="m0">Apitesting.sampleproject.TestCases#testLoginUserUnsuccessfull</h3><table class="result"><tr><th>Exception</th></tr><tr><td><div class="stacktrace">java.lang.AssertionError: 1 expectation failed.
+JSON path error doesn&apos;t match.
+Expected: jhgj password
+  Actual: Missing password
+
+	at org.codehaus.groovy.runtime.callsite.ConstructorSite$ConstructorSiteNoUnwrapNoCoerce.callConstructor(ConstructorSite.java:105)
+	at org.codehaus.groovy.runtime.callsite.CallSiteArray.defaultCallConstructor(CallSiteArray.java:59)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.callConstructor(AbstractCallSite.java:263)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.callConstructor(AbstractCallSite.java:277)
+	at io.restassured.internal.ResponseSpecificationImpl$HamcrestAssertionClosure.validate(ResponseSpecificationImpl.groovy:493)
+	at io.restassured.internal.ResponseSpecificationImpl$HamcrestAssertionClosure$validate$1.call(Unknown Source)
+	at io.restassured.internal.ResponseSpecificationImpl.validateResponseIfRequired(ResponseSpecificationImpl.groovy:674)
+	at org.codehaus.groovy.runtime.callsite.PlainObjectMetaMethodSite.doInvoke(PlainObjectMetaMethodSite.java:43)
+	at org.codehaus.groovy.runtime.callsite.PogoMetaMethodSite$PogoCachedMethodSiteNoUnwrapNoCoerce.invoke(PogoMetaMethodSite.java:193)
+	at org.codehaus.groovy.runtime.callsite.PogoMetaMethodSite.callCurrent(PogoMetaMethodSite.java:61)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.callCurrent(AbstractCallSite.java:185)
+	at io.restassured.internal.ResponseSpecificationImpl.body(ResponseSpecificationImpl.groovy:261)
+	at io.restassured.specification.ResponseSpecification$body$1.callCurrent(Unknown Source)
+	at io.restassured.internal.ResponseSpecificationImpl.body(ResponseSpecificationImpl.groovy:108)
+	at io.restassured.internal.ValidatableResponseOptionsImpl.body(ValidatableResponseOptionsImpl.java:244)
+	at io.restassured.internal.ValidatableResponseImpl.super$2$body(ValidatableResponseImpl.groovy)
+	at groovy.lang.MetaMethod.doMethodInvoke(MetaMethod.java:323)
+	at groovy.lang.MetaClassImpl.invokeMethod(MetaClassImpl.java:1268)
+	at org.codehaus.groovy.runtime.ScriptBytecodeAdapter.invokeMethodOnSuperN(ScriptBytecodeAdapter.java:144)
+	at io.restassured.internal.ValidatableResponseImpl.body(ValidatableResponseImpl.groovy:298)
+	at io.restassured.internal.ValidatableResponseImpl.body(ValidatableResponseImpl.groovy)
+	at Apitesting.sampleproject.TestCases.testLoginUserUnsuccessfull(TestCases.java:120)
+... Removed 40 stack frames</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m1">Apitesting.sampleproject.TestCases#testCreateUser</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m2">Apitesting.sampleproject.TestCases#testFetchUser</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m3">Apitesting.sampleproject.TestCases#testGetListResourceUser</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m4">Apitesting.sampleproject.TestCases#testGetListSingleUser</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m5">Apitesting.sampleproject.TestCases#testLoginUser</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
 <h3 id="m6">Apitesting.sampleproject.TestCases#testRegisterUser</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
 </body>
 </html>
